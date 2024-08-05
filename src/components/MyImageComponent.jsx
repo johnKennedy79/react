@@ -9,7 +9,12 @@
 export default function MyImageComponent({ imageUrl, altText }) {
   return (
     <div>
-      <img className="image" src={imageUrl} alt={altText} width="400px" />
+      <img
+        className="p-2.5 items-center border border-solid border-red-600"
+        src={imageUrl}
+        alt={altText}
+        width="400px"
+      />
     </div>
   );
 }
